@@ -1,16 +1,21 @@
-# exer6
+## Exercise 3
+### Author
+Von Michael B. Arellano
+### Student Number
+2020-07263
+### Section
+U3L
 
-A new Flutter project.
+### Application Description
+This is a simple application that implements a provider to manage state.
 
-## Getting Started
+### Things done in the code
+The `lib` folder has been subdivided into different subfolders:
+`Model`: Handles objects and models (e.g., Item).
+`Provider`: Manages the provider, in this case, shopping_cart.
+`Screen`: Manages the different screens of the system.
+`Main.dart`: Where everything is called and routes are declared.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Challenges experienced
+The main challenge I encountered was related to handling the values to appear in the `checkout.dart` screen. 
+I was able to solve it upon understanding that the same provider can still be used to display the items.
